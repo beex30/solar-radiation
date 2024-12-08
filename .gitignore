@@ -1,0 +1,49 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env
+.venv/
+venv/
+env/
+
+# Data folders (to avoid committing large or sensitive data)
+src/data/
+
+# Streamlit related cache
+/.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+
+# PyCharm project files
+.idea/
+
+# System-specific files
+.DS_Store
+
+# Configuration files
+*.yml
+*.yaml
+
+# Logs
+logs/
+*.log
+
+# Build directories
+build/
+dist/
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore deployment artifacts
+*.egg-info/
